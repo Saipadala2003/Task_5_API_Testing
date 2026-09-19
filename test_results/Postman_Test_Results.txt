@@ -1,0 +1,10 @@
+Task 5 - API Testing and Validation
+
+TC-01 API Health Check: 3/3 PASS - HTTP 200 OK
+TC-02 Valid Prediction: 4/4 PASS - HTTP 200 OK
+TC-03 Missing Input Data: 3/3 PASS - HTTP 400 Bad Request
+TC-04 Incorrect Pixel Count: 3/3 PASS - HTTP 400 Bad Request
+
+OVERALL RESULT: 13/13 assertions passed, 0 errors.
+
+Note: TC-02 must send exactly 784 pixel values to satisfy the Flask API validation.
